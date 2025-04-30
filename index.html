@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirección a WhatsApp</title>
+  <script>
+    window.onload = function () {
+      const links = [
+        "https://chat.whatsapp.com/FFXiyUtWtE94HDVnDdOh1z",
+        "https://chat.whatsapp.com/BCdJSRNjqUHLJU5bgaWXhj"
+      ];
+      const linkAleatorio = links[Math.floor(Math.random() * links.length)];
+      window.location.href = linkAleatorio;
+    };
+  </script>
+</head>
+<body>
+  <p>Redirigiendo a WhatsApp...</p>
+</body>
+</html>
